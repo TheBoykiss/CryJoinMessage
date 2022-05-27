@@ -1,0 +1,22 @@
+#  ░█████╗░██████╗░██╗░░░██╗░░░░░██╗░█████╗░██╗███╗░░██╗
+#  ██╔══██╗██╔══██╗╚██╗░██╔╝░░░░░██║██╔══██╗██║████╗░██║
+#  ██║░░╚═╝██████╔╝░╚████╔╝░░░░░░██║██║░░██║██║██╔██╗██║
+#  ██║░░██╗██╔══██╗░░╚██╔╝░░██╗░░██║██║░░██║██║██║╚████║
+#  ╚█████╔╝██║░░██║░░░██║░░░╚█████╔╝╚█████╔╝██║██║░╚███║
+#  ░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░░╚════╝░╚═╝╚═╝░░╚══╝
+#          By TheBoykissOld v1.0
+
+join-message: "&7[&a+&7] &a%playername%"
+sound-join: ENTITY_PLAYER_LEVELUP
+leave-message: "&7[&c-&7] &c%playername%"
+# Title
+title-join: "&cWelcome to"
+subtitle-join: "&fspigotmc.org"
+duration-title: 100 #This variable is in ticks | 100 = 5s
+# End Title
+reload-command-nopermission: "&cYou do not have the required permissions"
+reload-command-success: "&aThe configuration was successfully reloaded"
+
+# Events Lobby
+
+healthscale: 10 #We recommend this Value
