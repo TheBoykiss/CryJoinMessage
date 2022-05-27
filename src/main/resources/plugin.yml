@@ -1,0 +1,6 @@
+name: CryJoinMessage
+version: '${project.version}'
+main: me.theboykiss.ovh.cryjoinmessage.CryJoinMessage
+api-version: 1.16
+authors: [ TheBoykissOld ]
+description: Customize your users login
