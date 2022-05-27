@@ -4,3 +4,7 @@ main: me.theboykiss.ovh.cryjoinmessage.CryJoinMessage
 api-version: 1.16
 authors: [ TheBoykissOld ]
 description: Customize your users login
+commands:
+  cryjoin:
+    description: Main command
+    usage: /<command>

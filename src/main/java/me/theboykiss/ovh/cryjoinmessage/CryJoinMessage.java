@@ -1,6 +1,7 @@
 package me.theboykiss.ovh.cryjoinmessage;
 
-import me.theboykiss.ovh.cryjoinmessage.Events.FirstJoin;
+import me.theboykiss.ovh.cryjoinmessage.Commands.ReloadCommand;
+import me.theboykiss.ovh.cryjoinmessage.Events.JoinEvents;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.PluginDescriptionFile;
@@ -18,7 +19,8 @@ public final class CryJoinMessage extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&aThank you for using my CryJoinMessage Plugin."));
         Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&6"+ pdfFile.getName() + " &ev " + pdfFile.getVersion()));
         registerConfig();
-        getServer().getPluginManager().registerEvents(new FirstJoin(this), this);
+        getServer().getPluginManager().registerEvents(new JoinEvents(this), this);
+        this.getCommand("cryjoin").setExecutor(new ReloadCommand());
     }
 
     public void registerConfig() {

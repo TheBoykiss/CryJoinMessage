@@ -10,3 +10,7 @@ join-message: "&7[&a+&7] &a%playername%"
 sound-join: ENTITY_PLAYER_LEVELUP
 leave-message: "&7[&c-&7] &c%playername%"
 sound-leave: ENTITY_PLAYER_LEVELUP
+title-join: "&cWelcome to"
+subtitle-join: "&fmc.crystalzone.net"
+reload-command-nopermission: "&cYou do not have the required permissions"
+reload-command-success: "&aThe configuration was successfully reloaded"
